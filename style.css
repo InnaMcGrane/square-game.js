@@ -1,0 +1,63 @@
+.square-game {
+  background-color: aliceblue;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 230px;
+}
+
+.square-game__total {
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.square {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square:hover {
+  opacity: 0.9;
+}
+
+.square--green {
+  background-color: rgb(55, 166, 55);
+}
+
+.square--violet {
+  background-color: rgb(122, 60, 181);
+}
+
+.square--red {
+  background-color: rgb(248, 92, 92);
+}
+
+.square--blue {
+  background-color: rgb(28, 28, 177);
+}
+
+.square-game__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.btn--reset{
+    background-color: rgb(28, 92, 148);
+    color: #fff;
+}
+
